@@ -50,3 +50,16 @@ public class MessageFormatTest {
         System.out.println(format);
     }
 }
+
+/**
+ * NOTE :
+ *
+ * MessageFormat class ini digunakan untuk melakukan substitusi data parameter, namun data string awalnya perlu ditambahkan penanda parameter.
+ * Penggunaan parameter di MessageFormat, menggunakan kurung kurawal buka, diikuti dengan index (dimulai dari 0) dan diakhiri dengan kurung kurawal tutup,
+ * misal : Hi {0}, Selamat datang di {1}.
+ * Jika menggunakan index yang sama, artinya data akan menggunakan parameter yang sama,
+ * misal : Hi {0}, Anda bisa mencari data anda dengan mengetik "{0}" di pencarian.
+ * Link list country codes : https://www.iban.com/country-codes.
+ * Link list language codes ISO 639.2 : https://loc.gov/standards/iso639-2/php/code_list.php.
+ *
+ */
